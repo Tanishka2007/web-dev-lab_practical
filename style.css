@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3eafa;
+    background-image:
+        radial-gradient(circle at 10% 15%, #f6cddd 100px, transparent 101px),
+        radial-gradient(circle at 90% 85%, #d8c6f0 130px, transparent 131px),
+        radial-gradient(circle at 85% 10%, #f8e3c5 70px, transparent 71px);
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #79558f;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+body p {
+    color: #a17cae;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #fffdfd;
+    width: 300px;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+h2 {
+    color: #9a75b4;
+    font-size: 20px;
+}
+
+input,
+select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #ddcce9;
+    border-radius: 8px;
+    background-color: #fff9fc;
+}
+
+button {
+    background-color: #b99ad5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9876b9;
+}
+
+.expense {
+    background-color: #f7edf9;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.delete {
+    background-color: #d68fa8;
+}
